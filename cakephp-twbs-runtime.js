@@ -63,11 +63,28 @@ function applyBootstrapStyles(){
         //Error messages
         $this.find('p.error').addClass('alert alert-danger');
         $this.find('p.notice').addClass('alert alert-info');
-        
-        $this.find('ul.cake-stack-trace')
+   $this.find('ul.cake-stack-trace')
                 .addClass('list-group')
                 .find('li')
                 .addClass('list-group-item')
+
+        $this.find('.notice')
+                .parent()
+                .addClass('alert alert-danger')
+        
+        $this.find('.notice.success')
+                .parent()
+                .removeClass('alert-danger')
+                .addClass('alert alert-success')
+
+        $this.find('div#header').addClass('page-header')
+
+        $this.find('p#url-rewriting-warning')
+                .addClass('alert alert-danger')
+
+        $this.find('div#container')
+                .addClass('container')
+
 }
 
 $(document).ready(function(){
