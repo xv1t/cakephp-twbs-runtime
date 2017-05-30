@@ -1,0 +1,21 @@
+{
+  "name": "xv1t/cakephp-twbs-runtime",
+  "description": "JScript lib for onthefly changes styles CakePHP->Twbs Bootstrap",
+  "keywords": ["bootstrap", "cakephp", "jquery"],
+  "homepage": "https://github.com/xv1t/cakephp-twbs-runtime",
+  "authors": [
+    {
+      "name": "Viktor F",
+      "email": "xv1t@yandex.ru",
+      "role": "Developer",
+      "homepage": "http://github.com/xv1t"
+    }
+  ],
+  "license": [
+      "MIT"
+  ],
+  "require-dev": {
+        "twbs/bootstrap": "^3.3",
+        "components/jquery": "^3.2",
+  }
+}
