@@ -11,6 +11,7 @@
       "homepage": "http://github.com/xv1t"
     }
   ],
+  "minimum-stability": "dev",
   "license": [
       "MIT"
   ]
