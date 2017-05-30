@@ -14,8 +14,4 @@
   "license": [
       "MIT"
   ],
-  "require-dev": {
-        "twbs/bootstrap": "^3.3",
-        "components/jquery": "^3.2",
-  }
 }
